@@ -1,0 +1,2 @@
+#!/bin/bash
+python -m py_compile client.py

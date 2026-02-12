@@ -1,8 +1,12 @@
 .PHONY: test install clean help
 
+SHELL = "C:/Program Files/Git/bin/bash.exe"
+.ONESHELL:
+.SHELLFLAGS = -c
+
 # Путь к Python
-PYTHON := python3
-PIP := pip3
+PYTHON := python
+PIP := pip
 
 # Папки
 TEST_DIR := tests
